@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jordan Elliott - Card Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">Jordan E</div>
+    <nav class="nav" aria-label="Main nav">
+      <a href="#cards">Cards</a>
+      <a href="#about">About</a>
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">🌓</button>
+    </nav>
+  </header>
+  <main class="panel" id="cards">
+    <h1>Card-Driven Experience</h1>
+    <p class="muted">A simple, responsive set of info cards with hover effects.</p>
+    <section class="grid" aria-label="Card grid" style="margin-top:1rem">
+      <div class="card" tabindex="0">Design Systems</div>
+      <div class="card" tabindex="0">Accessibility</div>
+      <div class="card" tabindex="0">Performance</div>
+      <div class="card" tabindex="0">UX Patterns</div>
+    </section>
+  </main>
+  <section id="about" class="panel"><h2>About</h2><p>Concise, fast, and accessible.</p></section>
+  <footer class="site-footer">© 2024 Jordan</footer>
+  <script src="script.js"></script>
+</body>
+</html>
